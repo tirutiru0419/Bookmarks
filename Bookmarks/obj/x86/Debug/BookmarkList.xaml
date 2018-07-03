@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="Bookmarks.Page1"
+    x:Class="Bookmarks.BookmarkList"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Bookmarks"
@@ -8,6 +8,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image Source="ms-appx:///Assets/gura.jpg" Stretch="UniformToFill"/>
         <ListView HorizontalAlignment="Left" Height="980" Margin="10,10,0,0" VerticalAlignment="Top" Width="1480">
             <ListViewItem>リンゴ</ListViewItem>
             <ListViewItem>バナナ</ListViewItem>
@@ -17,3 +18,4 @@
 
     </Grid>
 </Page>
+

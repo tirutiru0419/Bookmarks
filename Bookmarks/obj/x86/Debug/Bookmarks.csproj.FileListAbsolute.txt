@@ -288,11 +288,6 @@ C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\obj\x86\Debug\MultipleQualifiers
 C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\obj\x86\Debug\resources.en-us.resfiles
 C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\obj\x86\Debug\resources.en-us.resfiles.intermediate
 C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\obj\x86\Debug\ProjectArchitectures.txt
-C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\bin\x86\Debug\Page1.xbf
-C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\obj\x86\Debug\Page1.g.i.cs
-C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\obj\x86\Debug\Page1.g.cs
-C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\obj\x86\Debug\Page1.xaml
-C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\obj\x86\Debug\Page1.xbf
 C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\bin\x86\Debug\home.xbf
 C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\obj\x86\Debug\home.g.i.cs
 C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\obj\x86\Debug\home.g.cs
@@ -348,3 +343,8 @@ C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\obj\x86\Debug\Signin.g.i.cs
 C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\obj\x86\Debug\Signin.g.cs
 C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\obj\x86\Debug\Signin.xaml
 C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\obj\x86\Debug\Signin.xbf
+C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\bin\x86\Debug\BookmarkList.xbf
+C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\obj\x86\Debug\BookmarkList.g.i.cs
+C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\obj\x86\Debug\BookmarkList.g.cs
+C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\obj\x86\Debug\BookmarkList.xaml
+C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\obj\x86\Debug\BookmarkList.xbf

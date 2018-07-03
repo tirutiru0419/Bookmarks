@@ -8,11 +8,11 @@
     mc:Ignorable="d" FontFamily="Segoe UI">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock HorizontalAlignment="Left" Margin="194,415,0,0" Text="まずは、ログインしましょう" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" RenderTransformOrigin="-0.166,0.3" FontFamily="Segoe UI" FontWeight="Bold" FontStyle="Normal" IsColorFontEnabled="True"/>
-        <Image Source="/Assets/user.jpg" HorizontalAlignment="Left" Height="200" Margin="292,200,0,0" VerticalAlignment="Top" Width="200"/>
-        <TextBlock HorizontalAlignment="Left" Margin="265,480
-                   ,0,0" Text="アカウントをお持ちでない方は" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
-        <TextBlock x:ConnectionId='1' x:Name="TextBlock" HorizontalAlignment="Left" Margin="495,480,0,0" Text="こちら" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
+        <Image Source="ms-appx:///Assets/gura.jpg" Stretch="UniformToFill"/>
+        <TextBlock HorizontalAlignment="Left" Margin="132,290,0,0" Text="ブックマー君は、気になったサイトを" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" RenderTransformOrigin="-0.166,0.3" FontFamily="Segoe UI" FontWeight="Bold" FontStyle="Normal" IsColorFontEnabled="True"/>
+        <Image Source="ms-appx:///Assets/okiniiri.png" HorizontalAlignment="Left" Height="200" Margin="335,69,0,0" VerticalAlignment="Top" Width="211"/>
+        <TextBlock HorizontalAlignment="Left" Margin="132,348,0,0" Text="登録して好きな時に閲覧することができます" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" FontWeight="Bold"/>
+        <TextBlock x:ConnectionId='1' x:Name="TextBlock" HorizontalAlignment="Left" Margin="132,456,0,0" Text="まずはアカウント登録をしましょう" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30"/>
 
     </Grid>
 </Page>

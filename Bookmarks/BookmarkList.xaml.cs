@@ -20,9 +20,9 @@ namespace Bookmarks
     /// <summary>
     /// それ自体で使用できる空白ページまたはフレーム内に移動できる空白ページ。
     /// </summary>
-    public sealed partial class Page1 : Page
+    public sealed partial class BookmarkList : Page
     {
-        public Page1()
+        public BookmarkList()
         {
             this.InitializeComponent();
         }

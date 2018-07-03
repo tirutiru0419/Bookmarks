@@ -60,6 +60,7 @@ namespace Bookmarks
                     case "signup":
                         ContentFrame.Navigate(typeof(signin));
                         NavView.Header = "サインアップ";
+                       
                         break;
 
                     case "signin":
@@ -73,7 +74,7 @@ namespace Bookmarks
                         break;
 
                     case "work":
-                        ContentFrame.Navigate(typeof (Page1));
+                        ContentFrame.Navigate(typeof (BookmarkList));
 
                         //確認用
                         signin.Visibility = Visibility.Collapsed;
@@ -84,32 +85,32 @@ namespace Bookmarks
                         break;
 
                     case "music":
-                        ContentFrame.Navigate(typeof(Page1));
+                        ContentFrame.Navigate(typeof(BookmarkList));
                         NavView.Header = "音楽";
                         break;
 
                     case "enter":
-                        ContentFrame.Navigate(typeof(Page1));
+                        ContentFrame.Navigate(typeof(BookmarkList));
                         NavView.Header = "芸能";
                         break;
 
                     case "sport":
-                        ContentFrame.Navigate(typeof(Page1));
+                        ContentFrame.Navigate(typeof(BookmarkList));
                         NavView.Header = "スポーツ";
                         break;
 
                     case "fashion":
-                        ContentFrame.Navigate(typeof(Page1));
+                        ContentFrame.Navigate(typeof(BookmarkList));
                         NavView.Header = "ファッション";
                         break;
 
                     case "game":
-                        ContentFrame.Navigate(typeof(Page1));
+                        ContentFrame.Navigate(typeof(BookmarkList));
                         NavView.Header = "ゲーム";
                         break;
 
                     case "other":
-                        ContentFrame.Navigate(typeof(Page1));
+                        ContentFrame.Navigate(typeof(BookmarkList));
                         NavView.Header = "その他";
                         break;
                 }

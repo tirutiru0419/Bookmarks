@@ -598,14 +598,14 @@
     <AppxPackagedFile Include="C:\Users\zeroa\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
       <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\Assets\signin.jpeg">
-      <PackagePath>Assets\signin.jpeg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\Assets\gura.jpg">
+      <PackagePath>Assets\gura.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\Assets\user.jpg">
       <PackagePath>Assets\user.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\Assets\okiniiri.png">
+      <PackagePath>Assets\okiniiri.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -633,6 +633,12 @@
     <AppxPackagedFile Include="C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\Assets\signin.jpeg">
+      <PackagePath>Assets\signin.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\bin\x86\Debug\Bookmarks.xr.xml">
       <PackagePath>Bookmarks.xr.xml</PackagePath>

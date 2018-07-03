@@ -9,36 +9,37 @@
 
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="-1179,551,0,0" VerticalAlignment="Top"/>
+        <Image Source="ms-appx:///Assets/gura.jpg" Stretch="UniformToFill"/>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Height="43" VerticalAlignment="Top" Width="944" Margin="158,74,0,0" >
             <TextBlock HorizontalAlignment="Right" Text="ユーザー名：" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,20,0" FontSize="24" Width="190" TextAlignment="Right"/>
             <Border CornerRadius="10" BorderThickness="1">
                 <TextBox HorizontalAlignment="Left" Text="" VerticalAlignment="Center" FontSize="24" Width="271" Background="#66FFFFFF" Margin="0,0,0,0"/>
             </Border>
+            <TextBlock x:ConnectionId='6' x:Name="user_check" FontSize="22" Text="" TextWrapping="Wrap" Height="45" Margin="10.690,0,-139.667,0"/>
         </StackPanel>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Height="43" Margin="158,147,0,0" VerticalAlignment="Top" Width="944">
             <TextBlock HorizontalAlignment="Center" Text="メールアドレス：" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,20,0" FontSize="24" Width="190" TextAlignment="Right"/>
             <Border CornerRadius="10" BorderThickness="1">
                 <TextBox HorizontalAlignment="Center" Text="" VerticalAlignment="Top" FontSize="24" Width="271" RequestedTheme="Default" Visibility="Visible" Background="#66FFFFFF"/>
             </Border>
-        </StackPanel>
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Height="43" Margin="158,288,0,0" VerticalAlignment="Top" Width="944">
-            <TextBlock HorizontalAlignment="Center" Text="パスワード確認用：" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,20,0" FontSize="24" Width="190" TextAlignment="Right"/>
-            <Border CornerRadius="10" BorderThickness="1">
-                <PasswordBox HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="24" Width="271" Margin="0,0,0,0" Background="#66FFFFFF"/>
-            </Border>
+            <TextBlock x:ConnectionId='5' x:Name="addres_check" FontSize="22" Text="" TextWrapping="Wrap" Height="45" Margin="10.69,0,-139.667,-1.667" VerticalAlignment="Top"/>
         </StackPanel>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Height="43" Margin="158,220,0,0" VerticalAlignment="Top" Width="944">
             <TextBlock HorizontalAlignment="Center" Text="パスワード：" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,20,0" FontSize="24" Width="190" FontFamily="Segoe UI" TextAlignment="Right"/>
             <Border CornerRadius="10" BorderThickness="1">
                 <PasswordBox HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="24" Width="271" Background="#66FFFFFF"/>
             </Border>
+            <TextBlock x:ConnectionId='4' x:Name="password_check" FontSize="22" Text="" TextWrapping="Wrap" Height="45" Margin="10.690,0,-139.667,0"/>
         </StackPanel>
-
-        <Button VerticalAlignment="Top" FontSize="24" Content="登録" HorizontalAlignment="Left" Margin="158,356,0,0" FontFamily="Segoe UI"  Width="190"/>
-        <TextBlock HorizontalAlignment="Left" Margin="427,365,0,0" Text="ログインは" TextWrapping="Wrap" VerticalAlignment="Top" Height="46" Width="190" FontSize="20" />
-        <TextBlock HorizontalAlignment="Left" Margin="507,365,0,0" Text="こちら" TextWrapping="Wrap" VerticalAlignment="Top" Height="46" Width="190" FontSize="20"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Height="43" Margin="158,288,0,0" VerticalAlignment="Top" Width="944">
+            <TextBlock HorizontalAlignment="Center" Text="パスワード確認用：" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,20,0" FontSize="24" Width="190" TextAlignment="Right"/>
+            <Border CornerRadius="10" BorderThickness="1">
+                <PasswordBox HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="24" Width="271" Margin="0,0,0,0" Background="#66FFFFFF"/>
+            </Border>
+            <TextBlock x:ConnectionId='3' x:Name="password_check2" FontSize="22" Text="" TextWrapping="Wrap" Height="45" Margin="10.690,0,-139.667,0"/>
+        </StackPanel>
+        <Button x:ConnectionId='1' Style="{ThemeResource ButtonRevealStyle}" VerticalAlignment="Top" FontSize="24" Content="登録" HorizontalAlignment="Left" Margin="158,356,0,0" FontFamily="Segoe UI"  Width="190"                     />
+        <TextBlock x:ConnectionId='2' x:Name="registerText" HorizontalAlignment="Left" Margin="427,365,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="46" Width="190" FontSize="20" />
 
     </Grid>
 </Page>

@@ -5,10 +5,12 @@
     xmlns:local="using:Bookmarks"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
+    mc:Ignorable="d"
+    RequestedTheme="Dark">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <NavigationView x:ConnectionId='1' x:Name="NavView"                                             Header="ようこそ">
+        <Image Source="ms-appx:///Assets/gura.jpg" Stretch="UniformToFill"/>
+        <NavigationView x:ConnectionId='1' x:Name="NavView" AlwaysShowHeader="True"                                             Header="ようこそ">
             <NavigationView.MenuItems>
                 <NavigationViewItem Icon="home" Content="ホーム" Tag="home"/>
                 <NavigationViewItem x:ConnectionId='2' x:Name="signup" Icon="contact" Content="サインアップ" Tag="signup" Visibility="Visible"/>

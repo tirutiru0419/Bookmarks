@@ -185,7 +185,7 @@ namespace Bookmarks.Bookmarks_XamlTypeInfo
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[3] = "Bookmarks.MainPage";
-            _typeNameTable[4] = "Bookmarks.Page1";
+            _typeNameTable[4] = "Bookmarks.BookmarkList";
             _typeNameTable[5] = "Bookmarks.signin";
             _typeNameTable[6] = "Bookmarks.Signup";
 
@@ -194,7 +194,7 @@ namespace Bookmarks.Bookmarks_XamlTypeInfo
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[3] = typeof(global::Bookmarks.MainPage);
-            _typeTable[4] = typeof(global::Bookmarks.Page1);
+            _typeTable[4] = typeof(global::Bookmarks.BookmarkList);
             _typeTable[5] = typeof(global::Bookmarks.signin);
             _typeTable[6] = typeof(global::Bookmarks.Signup);
         }
@@ -233,7 +233,7 @@ namespace Bookmarks.Bookmarks_XamlTypeInfo
 
         private object Activate_0_home() { return new global::Bookmarks.home(); }
         private object Activate_3_MainPage() { return new global::Bookmarks.MainPage(); }
-        private object Activate_4_Page1() { return new global::Bookmarks.Page1(); }
+        private object Activate_4_BookmarkList() { return new global::Bookmarks.BookmarkList(); }
         private object Activate_5_signin() { return new global::Bookmarks.signin(); }
         private object Activate_6_Signup() { return new global::Bookmarks.Signup(); }
 
@@ -269,9 +269,9 @@ namespace Bookmarks.Bookmarks_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 4:   //  Bookmarks.Page1
+            case 4:   //  Bookmarks.BookmarkList
                 userType = new global::Bookmarks.Bookmarks_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_Page1;
+                userType.Activator = Activate_4_BookmarkList;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

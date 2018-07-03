@@ -27,8 +27,10 @@ namespace Bookmarks
             this.InitializeComponent();
         }
 
-        internal class VisibilityProperty
+        
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
+            registerText.Text = "登録しました";
         }
     }
 }

@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-21T06:59:25.288</Modified>
+      <Modified>2018-07-03T05:18:06.354</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\bin\x86\Debug\Bookmarks.exe">
       <PackagePath>entrypoint\Bookmarks.exe</PackagePath>
-      <Modified>2018-06-21T06:59:24.376</Modified>
+      <Modified>2018-07-03T05:18:05.308</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zeroa\.nuget\packages\microsoft.data.sqlite.core\2.1.0\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
       <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
@@ -799,17 +799,17 @@
       <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
       <Modified>2018-05-15T04:29:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\Assets\signin.jpeg">
-      <PackagePath>Assets\signin.jpeg</PackagePath>
-      <Modified>2018-05-28T07:02:38.607</Modified>
+    <AppxPackagedFile Include="C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\Assets\gura.jpg">
+      <PackagePath>Assets\gura.jpg</PackagePath>
+      <Modified>2018-07-03T03:09:02.420</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\Assets\user.jpg">
       <PackagePath>Assets\user.jpg</PackagePath>
       <Modified>2018-06-05T07:13:57.016</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2018-05-25T01:35:21.717</Modified>
+    <AppxPackagedFile Include="C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\Assets\okiniiri.png">
+      <PackagePath>Assets\okiniiri.png</PackagePath>
+      <Modified>2018-07-02T07:03:54.997</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -845,9 +845,17 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-03-13T01:19:02.441</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\Assets\signin.jpeg">
+      <PackagePath>Assets\signin.jpeg</PackagePath>
+      <Modified>2018-05-28T07:02:38.607</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2018-05-25T01:35:21.717</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\bin\x86\Debug\Bookmarks.xr.xml">
       <PackagePath>Bookmarks.xr.xml</PackagePath>
-      <Modified>2018-06-21T06:52:28.727</Modified>
+      <Modified>2018-07-03T05:18:05.055</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -856,11 +864,11 @@
     <AppxPackagedFile Include="C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-21T06:59:24.982</Modified>
+      <Modified>2018-07-03T05:18:05.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zeroa\source\repos\Bookmarks\Bookmarks\bin\x86\Debug\Core\Bookmarks.exe">
       <PackagePath>Bookmarks.exe</PackagePath>
-      <Modified>2018-06-21T06:59:25.281</Modified>
+      <Modified>2018-07-03T05:18:06.344</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
